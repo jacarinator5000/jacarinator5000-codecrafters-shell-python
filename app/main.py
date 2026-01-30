@@ -8,6 +8,11 @@ def main():
     
     # read command from stdin
     command = input()
+    
+    # command for exiting shell
+    if command.upper() == "EXIT":
+        sys.exit()
+        
      
     # print error message for invalid command
     sys.stdout.write(f"{command}: command not found\n")
