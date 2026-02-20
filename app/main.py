@@ -22,7 +22,7 @@ def main():
 
         # print arguments to stdout
         elif command == "echo":
-            sys.stdout.write("".join(args) + "\n")
+            sys.stdout.write(" ".join(args) + "\n")
 
         # print error message for invalid command
         else:
